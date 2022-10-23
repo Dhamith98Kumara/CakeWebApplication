@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeWebApplication", "CakeWebApplication\CakeWebApplication.csproj", "{C9DEC0F0-753A-4E87-B624-2B28C448FE41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9DEC0F0-753A-4E87-B624-2B28C448FE41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9DEC0F0-753A-4E87-B624-2B28C448FE41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9DEC0F0-753A-4E87-B624-2B28C448FE41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9DEC0F0-753A-4E87-B624-2B28C448FE41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69A3D65A-A2D6-4AE2-8BDA-B1BA12ED8CF3}
+	EndGlobalSection
+EndGlobal

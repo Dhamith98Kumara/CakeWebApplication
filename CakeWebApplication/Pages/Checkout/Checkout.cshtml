@@ -1,0 +1,13 @@
+﻿@page
+@model CakeWebApplication.Pages.Checkout.CheckoutModel
+@{
+}
+
+<h1>Order Completion</h1>
+
+<div class="text-center">
+    <p>Your @Model.CakeName cake is ready !</p>
+    <p>Total price for your cake is : @Model.CakePrice $</p>
+
+    <a class="btn btn-danger" asp-page="ThankYou">Confirm Payment</a>
+</div>

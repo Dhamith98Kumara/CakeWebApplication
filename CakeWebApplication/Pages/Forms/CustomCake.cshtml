@@ -1,0 +1,18 @@
+﻿@page
+@model CakeWebApplication.Pages.Forms.CustomCakeModel
+@{
+}
+
+<h1>Create Your Custom Cake</h1>
+
+<form method="POST">
+    <input type="text" placeholder="Enter name for your cake..." asp-for="Cakes.CakeName" />
+    <br />
+    <input type="checkbox" asp-for="Cakes.Chocolate"/>Chocolate
+    <br />
+    <input type="checkbox" asp-for="Cakes.Cheese"/>Cheese
+    <br />
+    <input type="checkbox" asp-for="Cakes.Pineapple"/>Pineapple
+    <br />
+    <button type="submit" class="btn btn-primary mt-2">Complete Order</button>
+</form>
